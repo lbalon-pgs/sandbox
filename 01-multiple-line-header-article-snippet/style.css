@@ -73,6 +73,14 @@ img {
     font-size: 1.25rem;
 }
 
+.blog--articleImage {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 377 / 260;
+}
+
 @media (min-width: 960px) {
     .col-sm-8 {
         flex: 0 0 33.33333333%;
