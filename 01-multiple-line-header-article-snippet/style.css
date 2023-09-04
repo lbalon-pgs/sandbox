@@ -5,6 +5,11 @@
     word-wrap: break-word;
 }
 
+div,
+section {
+    display: block;
+}
+
 .grid {
     width: 1200px;
 }
@@ -47,6 +52,11 @@
 .col-sm-24,
 .col-sm-8 {
     float: left;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
 }
 
 @media (min-width: 960px) {
