@@ -59,6 +59,20 @@ img {
     max-width: 100%;
 }
 
+.blog--article {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog--articleTitle {
+    font-size: 1.5rem;
+}
+
+.blog--articleLead,
+.blog--articleLink {
+    font-size: 1.25rem;
+}
+
 @media (min-width: 960px) {
     .col-sm-8 {
         flex: 0 0 33.33333333%;
